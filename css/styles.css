@@ -1,0 +1,188 @@
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--primary-white-color: #FFFFFF;
+--primary-bg-color: #F5F4FA;
+--second-bg-color: #2F303A;
+--footer-link-color: rgba(255, 255, 255, 0.6);
+--button-accent-color: #188CE8;
+--primary-black-color: #000000;
+--primary-portfolio-bg:#F5F5F5;
+}
+body {
+   color: var(--primary-text-color);
+   background-color: var(--primary-white-color);
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.7;
+   letter-spacing: 0.03em;
+}
+/* header */
+/* logo */
+.logo {
+  color: var(--primary-black-color);
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  }
+.logo-web {
+  color: var(--accent-color);
+}
+/* list style none */
+.list {
+   list-style: none;
+}
+/* link decoration */
+.link {
+   text-decoration: none;
+   font-style: normal;
+}
+/* nav */
+.site-nav .link {
+   color: var(--primary-black-color);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.sitr-nav .link:focus {
+   color: var(--accent-color);
+}
+.site-nav .link.current {
+   color: var(--accent-color);
+}
+/* auth */
+.site-auth .link {
+   color: var(--primary-text-color);
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+}
+.site-auth .link:hover,
+.site-auth .link:focus {
+  color: var(--accent-color);
+ }
+/* hero */
+.hero {
+   background-color: var(--second-bg-color);
+}
+.hero-title {
+   color: var(--primary-white-color);
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
+   }
+/* button */
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.button.primary:active{
+   background-color: var(--button-accent-color);
+}
+/* section */
+.section-title {
+   color: var(--title-text-color);
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.17;
+   text-align: center;
+}
+/* features */
+.features .title{
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.features.section-title{
+   visibility: hidden;
+}
+/* team */
+.section.team {
+   background-color: var(--primary-bg-color);
+}
+.teammate {
+   background-color: var(--primary-white-color);
+}
+.teammate .section-title {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.19;
+   text-align: center;
+}
+.position {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 1.19;
+   text-align: center;
+}
+/* footer */
+.footer {
+   background-color: var(--second-bg-color);
+}
+.studio {
+   color: var(--primary-white-color);
+   font-family: 'Raleway', Arial, Helvetica, sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+}
+.address .link{
+   color: var(--footer-link-color);
+   }
+.address .link.map {
+   color: var(--primary-white-color);
+}
+.address .link:hover,
+.address .link:focus {
+   color: var(--accent-color);
+}
+/* potfolio */
+.examples .section-title {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+   text-align: left;
+}
+/* button */
+.portfolio-button {
+   color: var(--title-text-color);
+   background-color: var(--primary-bg-color);
+   font-family: inherit;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.6;
+   text-align: center;
+   letter-spacing: 0.03em;
+   cursor: pointer;
+}
+.portfolio-button:hover,
+.portfolio-button:focus,
+.portfolio-button:active {
+   color: var(--primary-white-color);
+   background-color: var(--accent-color);
+}
+.portfolio-title{
+   visibility: hidden;
+}
